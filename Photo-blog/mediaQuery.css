@@ -1,0 +1,93 @@
+/* Mobile device */
+
+
+/* Heder */
+@media only screen and (max-width:850px){
+    .menu-btn {
+        display: block;
+    }
+    .navbar{
+        padding:0;
+    }
+    .logo{
+        position:absolute;
+        top:30px;
+        left:30px;
+    }
+    .nav-links{
+        flex-direction:column;
+        width:100%;
+        height:100vh;
+        justify-content:center;
+        background:black;
+        margin-top: -900px;
+        transition:all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top:0px;
+        border-bottom-right-radius:30%;
+    }
+    .nav-links li{
+        margin:30px auto;
+    }
+}
+
+/* A Propos*/
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float:none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float:none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size:19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding:9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+
+    /* MINI gallerie */
+    .row{
+        width:100%;
+        display: block;
+        justify-content: center;
+        align-items:center;
+    }
+    .content-col{
+        width:100%;
+    }
+    .image-gallery img {
+       max-width:300px;
+    }
+    .image-col{
+        width:80%;
+    }
+    .tours .image-gallery{
+        margin-right:70px;
+    }
+    
+}
